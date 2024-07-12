@@ -1,0 +1,25 @@
+{
+  "name": "pokemon-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "En el proyecto contiene pruebas automatizadas para la PokeApi y Wikipedia usando Playwright con TypeScript.",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
